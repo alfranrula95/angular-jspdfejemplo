@@ -1,0 +1,30 @@
+p {
+  font-family: Lato;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+  background-color: lightblue;
+}
+
+td, th {
+  border: solid #dddddd;
+  text-align: center;
+  width: 33%;
+  padding: 1%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
